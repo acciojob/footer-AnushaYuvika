@@ -75,6 +75,9 @@ footer {
   margin-bottom: 10px;
   font-size: 14px;
   color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;   
+  text-underline-offset: 4px;
 }
 
 .box ul li {
@@ -87,6 +90,9 @@ footer {
   color: #d3d3d3;
 }
 
+.box ul li {
+	font-size: 13px;
+}
 .bottom-details {
   background: #222;
   padding: 20px 30px;
