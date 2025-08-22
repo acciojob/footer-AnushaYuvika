@@ -1,1 +1,102 @@
 /* your code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background: #111;
+  color: white;
+}
+
+.content {
+  padding: 30px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-details .logo_name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.media-icons a {
+  margin: 0 6px;
+  font-size: 10px;
+  color: white;
+  background: #222;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+/* Facebook */
+.media-icons a.facebook {
+  background: #3b5998;
+}
+
+/* Twitter */
+.media-icons a.twitter {
+  background: #1da1f2;
+}
+
+/* Instagram (pinkish) */
+.media-icons a.instagram {
+  background: #e1306c;
+}
+
+/* LinkedIn */
+.media-icons a.linkedin {
+  background: #0077b5;
+}
+
+/* YouTube */
+.media-icons a.youtube {
+  background: #ff0000;
+}
+
+
+.link-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 22%;
+}
+
+.box h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.box ul li {
+  list-style: none;
+  margin: 6px 0;
+}
+
+.box ul li a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.bottom-details {
+  background: #222;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.bottom-details a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
