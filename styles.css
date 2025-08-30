@@ -25,6 +25,12 @@ footer {
   font-weight: bold;
 }
 
+.media-icons {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
 .media-icons a {
   margin: 0 6px;
   font-size: 10px;
