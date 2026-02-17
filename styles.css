@@ -1,1 +1,47 @@
 /* your code here */
+.content {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+.logo_name {
+	font-size: 1.5em;
+}
+
+.media-icons {
+	display: flex;
+	gap: 12px;
+	font-size: 1.5em;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+.link-boxes {
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.bottom-details {
+	display: flex;
+	justify-content: space-between;
+	background-color: darkgray;
+	padding: 0 20px;
+}
